@@ -16,3 +16,17 @@ int main()
     }
     return 0;
 }
+
+//TO DO IT IN WHILE LOOP
+while(n>0){
+    r=num%10;
+    sum=sum+(r*r*r); //We Can Use sum += (r*r*r) Also...
+    num=num/10; //Here num/=10 is Easier..
+}
+
+//TO DO IT IN DO..WHILE LOOP
+do{
+    r=num%10;
+    sum += (r*r*r);
+    num/=10;
+}while(n>0);
